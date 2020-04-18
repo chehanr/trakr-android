@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/nav_graph"
+  android:label="@string/fragment_fuel_log_label"
+  app:startDestination="@id/homeFragment">
+
+  <fragment
+    android:id="@+id/homeFragment"
+    android:label="@string/fragment_home_label"
+    android:name="com.chehanr.trakr.HomeFragment"
+    tools:layout="@layout/fragment_home">
+    <action
+      android:id="@+id/action_homeFragment_to_connectFragment"
+      app:destination="@id/connectFragment" />
+    <action
+      android:id="@+id/action_homeFragment_to_fuelLogFragment"
+      app:destination="@id/fuelLogFragment" />
+  </fragment>
+  <fragment
+    android:id="@+id/connectFragment"
+    android:label="@string/fragment_connect_label"
+    android:name="com.chehanr.trakr.ConnectFragment"
+    tools:layout="@layout/fragment_connect" />
+  <fragment
+    android:id="@+id/fuelLogFragment"
+    android:label="@string/fragment_fuel_log_label"
+    android:name="com.chehanr.trakr.FuelLogFragment"
+    tools:layout="@layout/fragment_fuel_log" />
+</navigation>

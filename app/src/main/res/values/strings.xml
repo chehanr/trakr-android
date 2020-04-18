@@ -1,0 +1,25 @@
+<resources>
+  <string name="app_name">trakr</string>
+
+  <string name="ble_notification_channel_name">Bluetooth connectivity</string>
+  <string name="ble_notification_text_connected">Connected to node</string>
+
+  <string name="fragment_home_label">trakr</string>
+  <string name="fragment_connect_label">Connect</string>
+  <string name="fragment_fuel_log_label">Log a fill-up</string>
+
+  <string name="connect_btn_text_connect">Connect to node</string>
+  <string name="connect_btn_text_disconnect">Disconnect from node</string>
+  <string name="sync_button_text">Sync with Firebase</string>
+  <string name="clear_gps_data_btn_text">Clear local GPS data cache</string>
+  <string name="add_fuel_log_btn_text">Log a fill-up</string>
+  <string name="fcm_sub_b_text">Subscribe to daily reports</string>
+  <string name="fcm_ubsub_b_text">Unsubscribe from daily reports</string>
+
+  <string name="fuel_volume_tiet_hint_text">Volume (litres)</string>
+  <string name="fuel_price_tiet_hint_text">Price (AUD)</string>
+  <string name="log_btn_text">Add log</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
